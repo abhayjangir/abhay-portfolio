@@ -1,0 +1,96 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /MediaBox [0 0 612 792] /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 1677 >>
+stream
+BT
+/F1 18 Tf
+50 740 Td
+(ABHAY JANGIR) Tj
+0 -22 Td
+/F2 11 Tf
+(Software Development Engineer | Full-Stack Developer) Tj
+0 -16 Td
+(Gurugram, India | abhayjangir65@gmail.com | +91 9460233480) Tj
+0 -28 Td
+/F1 12 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+0 -16 Td
+/F1 10 Tf
+(U4RAD Technologies Pvt. Ltd., Gurugram) Tj
+0 -14 Td
+/F2 10 Tf
+(Software Development Engineer (May 2026 - Present)) Tj
+0 -13 Td
+(- Owned end-to-end delivery of major application workstream as sole engineer.) Tj
+0 -13 Td
+(- Built 15+ full-stack features using React.js and Django/Python.) Tj
+0 -13 Td
+(- Designed & implemented 30+ REST API endpoints using Django REST Framework.) Tj
+0 -13 Td
+(- Automated business processes, reducing Accounts processing effort by 40-50%.) Tj
+0 -13 Td
+(- Reduced radiology task review time by approximately 10%.) Tj
+0 -13 Td
+(- Diagnosed and resolved 10+ production issues per month.) Tj
+0 -13 Td
+(- Supported DPDP Act 2023 IT implementation across 4 business lines.) Tj
+0 -13 Td
+(- Developed features for DICOM/PACS workflows with HL7/FHIR exposure.) Tj
+0 -18 Td
+/F2 10 Tf
+(Software Engineer Trainee (Jan 2026 - Apr 2026) -> Fast-track SDE promotion) Tj
+0 -24 Td
+/F1 12 Tf
+(FEATURED PROJECTS) Tj
+0 -16 Td
+/F1 10 Tf
+(Heart Disease Prediction System) Tj
+0 -13 Td
+/F2 9 Tf
+(Next.js frontend, FastAPI/Python backend, 92% reported evaluation accuracy.) Tj
+0 -16 Td
+/F1 10 Tf
+(Real-Time Crop Yield Prediction) Tj
+0 -13 Td
+/F2 9 Tf
+(Apache Spark data processing pipeline and Power BI telemetry dashboards.) Tj
+0 -24 Td
+/F1 12 Tf
+(EDUCATION) Tj
+0 -16 Td
+/F2 10 Tf
+(Bachelor of Engineering in Computer Science & Engineering | GPA: 7.45/10) Tj
+0 -13 Td
+(Chandigarh University (2021 - 2025)) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000326 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2125
+%%EOF

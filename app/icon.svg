@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#2A2A2A"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="5.5" fill="none" stroke="#C0C0C0" stroke-width="1.2" stroke-opacity="0.6"/>
+  <text x="5" y="22" font-family="system-ui, -apple-system, monospace" font-weight="900" font-size="15" fill="#FFFFFF">A</text>
+  <text x="16.5" y="22" font-family="system-ui, -apple-system, monospace" font-weight="900" font-size="15" fill="#E10600">J</text>
+  <circle cx="27" cy="5" r="2" fill="#E10600" />
+</svg>
