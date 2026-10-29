@@ -133,20 +133,3 @@ All editable data is centralized in [`data/portfolio.ts`](./data/portfolio.ts).
 
 ---
 
-## 🚢 Deploying to Vercel
-
-1. Push this repository to your GitHub account:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: complete Abhay Jangir portfolio"
-   git remote add origin https://github.com/<your-username>/abhay-portfolio.git
-   git branch -M main
-   git push -u origin main
-   ```
-2. Go to [vercel.com](https://vercel.com) and sign in.
-3. Click **Add New Project** and select your `abhay-portfolio` repository.
-4. Framework Preset will be automatically detected as **Next.js**.
-5. Click **Deploy**. Vercel will build and assign a production URL.
-6. (Optional) Add your custom domain under **Project Settings > Domains**.
-
