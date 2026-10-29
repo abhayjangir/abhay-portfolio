@@ -1,135 +1,135 @@
-# Abhay Jangir - Software Development Engineer Portfolio
+# Abhay Jangir — Portfolio & Engineering Showcase
 
-A premium, recruiter-focused personal portfolio website engineered for **Abhay Jangir**, Software Development Engineer and Full-Stack Developer based in Gurugram, India.
+[![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![React](https://img.shields.io/badge/React-18.0-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 
-Designed with the aesthetic and architectural precision of a high-end developer SaaS product. Built with Next.js (App Router), React, TypeScript, and Tailwind CSS.
+The personal portfolio and technical case study showcase of **Abhay Jangir**, Software Development Engineer and Full-Stack Developer based in Gurugram, India.
 
----
-
-## 🚀 Live Demo & Positioning
-
-- **Role Focus**: Software Development Engineer (SDE), Frontend Developer, Full-Stack Developer, Python Developer.
-- **Core Stack**: React.js, TypeScript, Next.js, Python, Django, REST APIs, PostgreSQL.
-- **Key Metrics Highlighted**:
-  - **15+ Full-Stack Features Delivered** across React.js & Django/Python.
-  - **30+ REST API Endpoints** designed and implemented with Django REST Framework.
-  - **40–50% Reduction** in manual Accounts processing effort via automation.
-  - **~10% Reduction** in radiology task review time for medical imaging workflows.
-  - **10+ Production Issues/Month** diagnosed and resolved in production.
-  - **DPDP Act 2023 Implementation**: IT compliance and technical documentation across 4 business lines.
+Built as a production-grade web application demonstrating modern frontend architecture, 3D interface design, responsive engineering, and end-to-end full-stack capabilities across React.js, TypeScript, Django, and Python.
 
 ---
 
-## 🛠 Tech Stack
+## 👨‍💻 Professional Summary
 
-- **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict mode)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) with a precision 3D executive design system: **Deep Obsidian/Anthracite Base** (`#0E0F12` / `#2A2A2E`), **Brushed Metallic Silver** (`#C0C0C0`), and **Precision Crimson Red** (`#E10600` primary brand, active CTAs, and telemetry highlights) with tactile 3D perspective layers and specular rim lighting.
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Forms & Validation**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
-- **SEO & Structured Data**: OpenGraph, Twitter Cards, Semantic HTML5, JSON-LD (`Person` and `WebSite` schemas), dynamic `sitemap.ts`, and `robots.ts`
+Software Development Engineer with production experience building resilient web applications, designing REST APIs, and automating enterprise workflows.
+
+- **Primary Focus**: Frontend Architecture (React.js, Next.js, TypeScript), Full-Stack Systems, and REST API Engineering (Django, FastAPI, Python).
+- **Production Impact**:
+  - Delivered **15+ full-stack features** and designed **30+ REST API endpoints**.
+  - Engineered accounts automation reducing manual processing effort by **40–50%**.
+  - Optimized medical imaging task queues, cutting radiology review latency by **~10%**.
+  - Maintained healthcare IT compliance and DPDP Act 2023 technical documentation across 4 internal business lines.
 
 ---
 
-## 📁 Project Architecture
+## ⚡ Technical Stack
+
+| Domain | Technologies |
+| :--- | :--- |
+| **Frontend Frameworks** | React.js, Next.js 14 (App Router), TypeScript (Strict Mode), Redux |
+| **Styling & 3D UI** | Tailwind CSS, CSS 3D Transforms, Custom Design System (`#2A2A2E` Anthracite, `#C0C0C0` Brushed Silver, `#E10600` Crimson) |
+| **Backend & APIs** | Python, Django, Django REST Framework, FastAPI, Node.js |
+| **Databases & Data** | PostgreSQL, MySQL, MongoDB, Apache Spark |
+| **Domain Standards** | DICOM, PACS, HL7/FHIR, DPDP Act 2023 IT Compliance |
+| **Validation & Tools** | Zod, React Hook Form, Lucide React, Git, Docker, Postman |
+| **Performance & SEO** | OpenGraph, Twitter Cards, Semantic HTML5, Schema.org JSON-LD (`Person`, `WebSite`), dynamic XML sitemaps |
+
+---
+
+## 🌟 Key Application Features
+
+- **3D Spatial Interface**: Custom perspective stage with tilted developer workstation, floating Z-axis satellite chips, and tactile elevation controls.
+- **Production Metrics Strip**: Direct visualization of verified career impact and operational outcomes.
+- **Deep-Dive Project Modals**: Interactive case studies detailing architectural contracts, data ingestion streams, and performance metrics.
+- **Telemetry Waveforms**: High-precision vector ECG telemetry and distributed pipeline DAG diagrams.
+- **Strict Performance & Accessibility**: Zero layout shift, full keyboard navigability (WCAG 2.1 AA compliant), and native reduced-motion support.
+- **Zero-Dependency Contact Dispatcher**: Client-side validated mailto dispatcher adhering to verified input schemas.
+
+---
+
+## 📂 Repository Structure
 
 ```
-d:/Abhay Portfolio/
 ├── app/
-│   ├── favicon.svg             # Brand monogram favicon
-│   ├── globals.css             # Tailwind base, dark palette, smooth scroll, reduced motion
+│   ├── favicon.svg             # Monogram brand icon
+│   ├── globals.css             # Design system variables, 3D perspective, custom utilities
 │   ├── icon.svg                # Dynamic SVG favicon
-│   ├── layout.tsx              # Root layout, fonts, SEO metadata, JSON-LD schema
-│   ├── page.tsx                # Main single-page portfolio assembling all 10 sections
-│   ├── robots.ts               # Web crawling directives
-│   └── sitemap.ts              # Search engine XML sitemap generator
+│   ├── layout.tsx              # Root HTML layout, SEO meta tags, JSON-LD schemas
+│   ├── page.tsx                # Assembly of all modular sections
+│   ├── robots.ts               # Search crawler directives
+│   └── sitemap.ts              # Dynamic XML sitemap generator
 ├── components/
-│   ├── layout/
-│   │   ├── Navbar.tsx          # Sticky frosted navbar with scroll spy & monogram
-│   │   ├── Footer.tsx          # Clean footer with copyright, quick links, closing quote
-│   │   └── MobileMenu.tsx      # Accessible slide-over mobile drawer with ESC key & focus trap
-│   ├── sections/
-│   │   ├── Hero.tsx            # Two-column hero with live interactive code/API visual
-│   │   ├── Metrics.tsx         # Verified resume metrics strip
-│   │   ├── About.tsx           # Narrative, U4RAD context, DICOM/PACS, DPDP Act 2023, 4 principles
-│   │   ├── Skills.tsx          # Categorized technical toolkit (highlighting target skills)
-│   │   ├── Experience.tsx      # U4RAD career progression timeline (Trainee -> SDE)
-│   │   ├── Projects.tsx        # Featured case studies with custom UI mockups
-│   │   ├── EngineeringApproach.tsx # 4 engineering methodology pillars
-│   │   ├── Education.tsx       # Chandigarh University B.E. Computer Science (7.45 GPA)
-│   │   └── Contact.tsx         # Direct contact information & interactive mailto dispatcher
-│   └── ui/
-│       ├── Button.tsx          # Accessible polymorphic button & anchor component
-│       ├── ContactForm.tsx     # Zod-validated contact form with direct mailto fallback
-│       ├── ExperienceItem.tsx  # Editorial experience card with multi-role progression
-│       ├── Monogram.tsx        # Geometric "AJ" brand monogram
-│       ├── ProjectCard.tsx     # Custom SVG/CSS graphic thumbnail project card
-│       ├── ProjectModal.tsx    # Accessible modal dialog for deep-dive case studies
-│       ├── SectionHeading.tsx  # Consistent typography and eyebrow badge header
-│       └── SkillGroup.tsx      # Grouped skill category card
+│   ├── layout/                 # Navigation, sticky header, mobile drawer, footer
+│   ├── sections/               # Hero, Metrics, About, Skills, Experience, Projects, Approach, Education, Contact
+│   └── ui/                     # Tactile buttons, 3D cards, project modals, form controls
 ├── data/
-│   └── portfolio.ts            # Centralized typed configuration for all portfolio content
+│   └── portfolio.ts            # Centralized typed data layer
 ├── lib/
-│   ├── utils.ts                # Tailwind clsx/twMerge utility
-│   └── validation.ts           # Zod schema for contact form
-└── public/
-    ├── Abhay_Jangir_Resume.pdf # Downloadable resume PDF
-    └── favicon.svg             # Monogram asset
+│   ├── utils.ts                # Style composition utilities
+│   └── validation.ts           # Zod schema definitions
+├── public/
+│   └── Abhay_Jangir_Resume.pdf # Downloadable resume PDF
+├── tailwind.config.ts          # Color tokens, shadows, 3D elevation keyframes
+└── tsconfig.json               # TypeScript strict configuration
 ```
 
 ---
 
-## ⚡ Quick Start (Local Development)
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js `v18.x` or `v20.x` or `v22.x`
-- npm (installed with Node)
+
+- Node.js `v18.17+` or `v20+`
+- npm `v9+`
 
 ### Installation
+
 ```bash
-# Clone or navigate to the project directory
-cd "d:/Abhay Portfolio"
+# Clone the repository
+git clone https://github.com/abhayjangir/abhay-portfolio.git
+
+# Navigate to the project directory
+cd abhay-portfolio
 
 # Install dependencies
 npm install
 ```
 
-### Running the Development Server
+### Development Server
+
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Building for Production
+Open [http://localhost:3000](http://localhost:3000) (or [http://localhost:3001](http://localhost:3001) if port 3000 is occupied) in your browser.
+
+### Production Build
+
 ```bash
+# Run lint check
+npm run lint
+
+# Compile and build optimized static output
 npm run build
-```
-This compiles the TypeScript code, validates types, optimizes CSS, generates static pages, and produces an optimized production build in `.next/`.
 
-### Starting the Production Server
-```bash
+# Preview production build locally
 npm run start
 ```
 
 ---
 
-## 📝 Configuration & Customization Checklist
+## 📬 Contact & Connect
 
-All editable data is centralized in [`data/portfolio.ts`](./data/portfolio.ts).
-
-### 1. Resume PDF
-- Replace [`public/Abhay_Jangir_Resume.pdf`](./public/Abhay_Jangir_Resume.pdf) with your latest official PDF resume.
-- Keep the filename as `Abhay_Jangir_Resume.pdf` or update `personal.resumeFilename` and `personal.resumeUrl` in [`data/portfolio.ts`](./data/portfolio.ts).
-
-### 2. Social Links (GitHub & LinkedIn)
-- Open [`data/portfolio.ts`](./data/portfolio.ts).
-- Update the `url` for `socials.github` and `socials.linkedin`.
-- Set `isConfigured: true` on each social link you wish to display. Per requirements, unconfigured links remain hidden so recruiters never click on dead placeholders.
-
-### 3. Contact Form Backend (Optional)
-- The contact form is currently configured with a zero-credential, highly reliable `mailto:` fallback.
-- It validates the input fields (Name, Email, Subject, Message) using Zod, prepares an encoded inquiry, and opens the user's default email client addressed to `abhayjangir65@gmail.com`.
-- If you wish to connect a serverless email service (such as Resend, SendGrid, or AWS SES), you can add an API route at `app/api/contact/route.ts` and dispatch from `ContactForm.tsx`.
+- **Engineer**: Abhay Jangir
+- **Location**: Gurugram, India
+- **Email**: [abhayjangir65@gmail.com](mailto:abhayjangir65@gmail.com)
+- **Phone**: +91 9460233480
+- **GitHub**: [github.com/abhayjangir](https://github.com/abhayjangir)
 
 ---
 
+## 📄 License
+
+This project is open-source under the [MIT License](LICENSE).
